@@ -1,0 +1,19 @@
+import numpy as np
+
+def reduce_matrix(matrix):
+    # Get the number of rows and columns of the input matrix
+    rows, cols = matrix.shape
+    # Create an empty 10x10 matrix
+    reduced_matrix = np.zeros((10, 10))
+    # Determine the step size for reducing the matrix
+    step_size = max(rows, cols) // 10
+    # Iterate through the input matrix and copy every 'step_size' element to the reduced matrix
+    for i in range(0, rows, step_size):
+        for j in range(0, cols, step_size):
+            reduced_matrix[i // step_size][j // step_size] = matrix[i][j]
+    return reduced_matrix
+
+# Example usage
+matrix = np.random.rand(100,100)
+reduced_matrix = reduce_matrix(matrix)
+print(reduced_matrix)
