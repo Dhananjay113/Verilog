@@ -1,0 +1,109 @@
+module jagannath ();
+
+initial begin
+    $display("Hare Krishna");
+    #1ns;
+    $display("Jai Jagannath");
+    
+    wire a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+    wire opt;
+    wire shift, caploc, tab, ctrl, alt, windows, fn, , paus_play, next, prev,  back_space, prop, esc;
+    wire one, two, three, four, five, six, seven, eight, nine, zero;
+    wire f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12;
+    wire insert_ps, home_sl, pgup_pb, delete, end_, pgdn, vol_up, vol_down, mute, numlock,
+    wire box_opb, box_cls, for_slas, quote1, colen, coma, dot, back_slas;
+    wire enter;
+    wire numlock, back_slas_pad, star_pad, add_pad, min_pad, one_pad, two_pad, three_pad, four_pad, five_pad, six_pad, seven_pad, eight_pad, nine_pad, zero_pad, ;  
+
+    if (a == 1'b1) begin
+        opt = 0x41;
+    end
+    if (b == 1'b1) begin
+        opt = 0x42;
+    end
+    if (c == 1'b1) begin
+        opt = 0x43;
+    end
+    if (d == 1'b1) begin
+        opt = 0x44;
+    end
+    if (e == 1'b1) begin
+        opt = 0x45;
+    end
+    if (f == 1'b1) begin
+        opt = 0x46;
+    end
+    if (g == 1'b1) begin
+        opt = 0x47;
+    end
+    if (h == 1'b1) begin
+        opt = 0x48;
+    end
+    if (i == 1'b1) begin
+        opt = 0x49;
+    end
+    if (j == 1'b1) begin
+        opt = 0x4A;
+    end
+    if (k == 1'b1) begin
+        opt = 0x4b;
+    end
+    if (l == 1'b1) begin
+        opt = 0x4c;
+    end
+    if (m == 1'b1) begin
+        opt = 0x4d;
+    end
+    if (n == 1'b1) begin
+        opt = 0x4e;
+    end
+    if (o == 1'b1) begin
+        opt = 0x4f;
+    end
+    if (p == 1'b1) begin
+        opt = 0x50;
+    end
+    if (q == 1'b1) begin
+        opt = 0x51;
+    end
+    if (r == 1'b1) begin
+        opt = 0x52;
+    end
+    if (s == 1'b1) begin
+        opt = 0x53;
+    end
+    if (t == 1'b1) begin
+        opt = 0x54;
+    end
+    if (u == 1'b1) begin
+        opt = 0x55;
+    end
+    if (v == 1'b1) begin
+        opt = 0x56;
+    end
+    if (w == 1'b1) begin
+        opt = 0x57;
+    end
+    if (x == 1'b1) begin
+        opt = 0x58;
+    end
+    if (y == 1'b1) begin
+        opt = 0x59;
+    end
+    if (z == 1'b1) begin
+        opt = 0x5a;
+    end
+
+
+
+
+
+
+
+
+
+end
+
+
+
+endmodule
